@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final Box historyBox = Hive.box('searchHistory');
 
   final List<String> genres = ['Fantasi', 'Aksi', 'Misteri', 'Romantis', 'Horor', 'Petualangan','Fiksi Ilmiah','Sejarah','Komedi','Distopia','Spiritual/Religius','Thriller'];
-  final List<String> languages = ['Indonesia', 'Inggris', 'Jepang', 'Korea', 'Prancis','Amerika Serikat','Rusia ','Korea Selatan ','Turki'];
+  final List<String> languages = ['Indonesia', 'Inggris', 'Jepang', 'Korea', 'Prancis','Amerika Serikat','Rusia ','Korea Selatan ','Turki','Spanyol'];
 
   void getRecommendations() async {
     setState(() {
