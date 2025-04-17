@@ -21,3 +21,4 @@ Makefile linguist-detectable=false
 *.cpp linguist-vendored
 *.c linguist-vendored
 *.cs linguist-vendored
+*.cmake linguist-vendored
